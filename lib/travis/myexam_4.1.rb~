@@ -54,6 +54,15 @@ class Lista
 		end
 	end	
 
+	def print
+		act = @inicio
+		while act.next != nil do	
+		"{#act.value}"
+		act = act.next
+		end
+
+	end	
+
 	def getFinalValue()
 		return @final.value
 	end

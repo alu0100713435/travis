@@ -61,7 +61,7 @@ class Lista
 		act = act.next
 		end
 
-	end	
+	end
 
 	def getFinalValue()
 		return @final.value
